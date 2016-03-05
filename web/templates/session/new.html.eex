@@ -1,0 +1,8 @@
+<h3>LOG IN</h3>
+<div class="container">
+  <%= form_tag "/login", method: :post %>
+    <input name="email"></input>
+    <input name="password" type="password"></input>
+    <button rel="submit">SIGN IN</button>
+  </form>
+</div>
